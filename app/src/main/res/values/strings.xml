@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Virtual Companion</string>
+    <string name="login_job_seeker">Login as Job Seeker</string>
+    <string name="login_employer">Login as Employer</string>
+    <string name="login_sign_up">Sign-up</string>
+    <string name="login_sign_up_seeker">Sign-up</string>
+    <string name="login_forgot_password">Forgot Password</string>
+    <string name="login_email">Email address</string>
+    <string name="login_password">Password</string>
+    <string name="login_proceed">Proceed</string>
+    <string name="login_faq">FAQs</string>
+    <string name="login_agency">Login as a Recruitment Agency</string>
+
+    <string name="settings_header">Account Settings</string>
+    <string name="settings_name">Change profile name</string>
+    <string name="settings_description">Change profile description</string>
+    <string name="settings_resume_file">Update file resume</string>
+    <string name="settings_resume_system">Update online resume</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_sub">Show your account for public listing.</string>
+    <string name="settings_password">Change password</string>
+    <string name="settings_photo">Change profile image and description</string>
+    <string name="settings_emergency">Manage emergency contacts</string>
+
+    <string name="settings_resume_file_button">Done</string>
+    <string name="settings_name_button">Update account name</string>
+    <string name="settings_photo_button">Done</string>
+
+    <string name="forgot_password_header">Forgot Password</string>
+    <string name="forgot_password_button">Send Confirmation Email</string>
+    <string name="forgot_password_error">Fill enter an existing email address.</string>
+    <string name="password_successful">We have sent you instructions to reset your password to your email address.</string>
+    <string name="password_failed">Was not able to process transaction. Please double check your email, check your connection, or try again later.</string>
+
+    <string name="message_name">Michael Jackson</string>
+    <string name="message_date">January 10, 2018</string>
+    <string name="message_description">En effet, il renforce les obligations précédentes, impose</string>
+    <string name="notification_name">Michael Jackson</string>
+    <string name="notification_date">January 10, 2018</string>
+    <string name="notification_description">En effet, il renforce les obligations précédentes, impose désormais une transparence totale sur le but du consentement.</string>
+
+    <string name="menu_home">Jobs</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_notification">Notifications</string>
+    <string name="menu_options">Menu</string>
+
+    <string name="contract_description">Contract Description</string>
+    <string name="contract_job_description">Job Description</string>
+    <string name="contract_header">Contract Page</string>
+    <string name="contract_send">Send Contract</string>
+    <string name="options_seekers">Search for job seekers</string>
+    <string name="options_applicants">Applicants</string>
+    <string name="options_schedule">Interview Schedules</string>
+    <string name="options_about">About 3\'H App</string>
+    <string name="options_settings">Account Settings</string>
+    <string name="options_contact">Contact Us</string>
+    <string name="options_privacy">Privacy Policies</string>
+    <string name="options_terms">Terms of Services</string>
+    <string name="options_logout">Logout</string>
+
+    <string name="placeholder_notification">1</string>
+    <string name="notification_profile">You have just uploaded a picture for your account profile.</string>
+
+    <string name="setup_profile_header">Upload Photo</string>
+    <string name="setup_profile_sub">Tap on the plus icon to add your profile photo.</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="setup_profile_done">Done</string>
+    <string name="setup_profile_continue">Continue</string>
+    <string name="setup_description">Profile Description</string>
+    <string name="setup_description_field">Write something about yourself</string>
+    <string name="setup_done">Done</string>
+    <string name="setup_favorite">Find your Favorites</string>
+
+    <string name="schedule_date">January 28, 2018</string>
+    <string name="schedule_time">12:34PM</string>
+    <string name="schedule_status">Active</string>
+
+    <string name="profile_header">Profile Page</string>
+    <string name="profile_name">Account Name</string>
+    <string name="profile_description">En effet, il renforce les obligations précédentes, impose désormais une transparence totale sur le but du consentement.</string>
+    <string name="profile_address">Philippines</string>
+    <string name="profile_email">michael.jackson@gmail.com</string>
+    <string name="profile_mobile">+(63)9184833400</string>
+    <string name="profile_text">Profile Account</string>
+
+
+    <string name="activation_email">Confirm your email address to start posting jobs.</string>
+    <string name="deleted">Deleted</string>
+
+
+    <string name="resume_no_error_failed">File download has failed. Check your connection or try again later.</string>
+    <string name="resume_no_error">User does not have a resume uploaded to the server.</string>
+    <string name="internet_error">Unable to open the page due to network issues. Check your connection or try again later.</string>
+
+    <string name="month_january">January</string>
+    <string name="month_february">February</string>
+    <string name="month_march">March</string>
+    <string name="month_april">April</string>
+    <string name="month_may">May</string>
+    <string name="month_june">June</string>
+    <string name="month_july">July</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">October</string>
+    <string name="month_november">November</string>
+    <string name="month_december">December</string>
+
+    <string name="menu_header">Menu</string>
+    <string name="menu_second_header">Other options</string>
+
+    <string name="profile_default_description">I am a proud member of the 3\'H app community! I am most happy to meet you.</string>
+    <string name="profile_default_email">none</string>
+
+    <string name="login_confirmation">Login Confirmation</string>
+    <string name="login_error_empty">Enter your correct email and password combination to login.</string>
+    <string name="login_error_password">Please enter the correct email and password combination.</string>
+    <string name="login_error">We cannot log you in at this time. Check your internet connection or try again later.</string>
+    <string name="login_error_deleted">This account has been deleted or deactivated. Contact the admins of the app for more details.</string>
+
+    <string name="register_first_header">Registration</string>
+    <string name="register_first">Sign-up for free</string>
+    <string name="register_first_sub">Follow these simple steps to create your account.</string>
+    <string name="register_first_button">OK, let\'s begin</string>
+    <string name="register_name_header">Name</string>
+    <string name="register_name_first">First name</string>
+    <string name="register_name_last">Last name</string>
+    <string name="register_email_header">Job Email</string>
+    <string name="register_password_header">Job Password</string>
+    <string name="register_email">Email address</string>
+    <string name="register_password">Password</string>
+    <string name="register_phone_header">Mobile Number</string>
+    <string name="register_confirm_header">Confirm</string>
+    <string name="register_confirm_sub">Enter the 6 digit confirmation code that you will receive on your mobile number.</string>
+    <string name="register_confirm_resend_text">Didn\'t receive an SMS?</string>
+    <string name="register_confirm_counter">Resend SMS in:</string>
+    <string name="register_confirm_resend">Resend SMS</string>
+    <string name="register_proceed">Proceed</string>
+    <string name="register_create">Proceed</string>
+    <string name="register_setup_header">Your account has been created!</string>
+    <string name="register_setup_sub">Thanks for taking the time in creating your account. Now it\'s time to setup your account.</string>
+    <string name="register_setup">Let\'s setup your account</string>
+    <string name="register_cancel_header">You are about to cancel the registration process.</string>
+    <string name="register_cancel_sub">Are you sure you want to cancel? All the information that you entered will be erased.</string>
+    <string name="register_cancel_yes">Yes, cancel</string>
+    <string name="register_cancel_no">No, let\'s continue</string>
+    <string name="register_name_error">Please fill out your name.</string>
+    <string name="register_email_error">Please enter an email address.</string>
+    <string name="register_password_error">Please enter a password that is at least 6 characters long.</string>
+    <string name="register_mobile_error">Please enter your current mobile number.</string>
+    <string name="register_confirm_error">The code that you have entered is incorrect.</string>
+    <string name="register_confirm_system_error">We cannot confirm your phone number for now. Please try again later.</string>
+
+    <string name="loading_message">Loading..</string>
+    <string name="photo_header">Choose an option to upload a photo</string>
+    <string name="photo_camera">Use Camera</string>
+    <string name="photo_phone">From Device</string>
+    <string name="photo_error">We are having trouble saving your photo. Check your connection and try again later.</string>
+    <string name="file_error">Failed to upload file.</string>
+    <string name="file_error_proceed">Please upload a resume file before you proceed.</string>
+    <string name="application_form_error">Please complete all the fields before you submit your application.</string>
+    <string name="application_form_done">Your application has been sent to the employer.</string>
+
+    <string name="emergency_header">Emergency Contacts</string>
+    <string name="emergency_sub">Please complete the form before saving the record.</string>
+    <string name="emergency_name">Name</string>
+    <string name="emergency_email">Email address</string>
+    <string name="emergency_mobile">Mobile number</string>
+
+    <string name="resume_error">Please fill out all information before saving.</string>
+    <string name="resume_error_internet">Please check your connection or try again later.</string>
+    <string name="resume_save">Save record</string>
+    <string name="resume_cancel">Cancel</string>
+    <string name="cancel_emergency">Cancel Emergency</string>
+    <string name="description_card">You are alerting nearby users that you have an emergency.</string>
+    <string name="close_">Close</string>
+    <string name="user_s_in_need_of_help">User\'s in need of help. Tap on the user to inform them that you are on your way.</string>
+    <string name="coming_to_help">Coming to help</string>
+</resources>

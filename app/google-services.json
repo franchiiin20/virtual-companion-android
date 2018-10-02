@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "391232143145",
+    "firebase_url": "https://virtual-companion-216904.firebaseio.com",
+    "project_id": "virtual-companion-216904",
+    "storage_bucket": "virtual-companion-216904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391232143145:android:07280a01cfb653a4",
+        "android_client_info": {
+          "package_name": "companion.virtual.com.virtualcompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391232143145-6h635h2qer7g1qo9skgafdp24p8dve72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "companion.virtual.com.virtualcompanion",
+            "certificate_hash": "7112ba37e9aa43ee602086765fc3e38a899f885a"
+          }
+        },
+        {
+          "client_id": "391232143145-matrg74t1o4pli7f7f7pfia3do2a6q5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDwtUvSF9LxxkTFoiygRodvSokJJckTpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391232143145-matrg74t1o4pli7f7f7pfia3do2a6q5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

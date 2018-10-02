@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:background="@drawable/background_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height">
+        <TextView
+            android:id="@+id/register_id_banner"
+            android:text="@string/setup_description"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/paragraph_text"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+        <Button
+            android:id="@+id/setup_done"
+            android:text="@string/setup_done"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/information_text"
+            android:background="@color/colorTransparent"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:stateListAnimator="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/setup_description_field"
+                android:hint="@string/setup_description_field"
+                android:textSize="@dimen/paragraph_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:maxLength="80"
+                android:backgroundTint="@color/colorWhite"
+                android:inputType="text|textMultiLine"/>
+        </RelativeLayout>
+        <TextView
+            tools:text="0/60"
+            android:id="@+id/setup_counter"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

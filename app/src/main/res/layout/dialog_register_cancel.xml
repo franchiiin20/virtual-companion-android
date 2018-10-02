@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/register_cancel_header"
+        android:textSize="@dimen/header_text"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_width="250dp"
+        android:textColor="@color/colorLightBlack"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/register_cancel_sub"
+        android:textSize="@dimen/information_text"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/colorLightBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/register_cancel_yes"
+            android:text="@string/register_cancel_yes"
+            android:textColor="@color/colorRed"
+            android:background="@color/colorWhite"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/register_cancel_no"
+            android:text="@string/register_cancel_no"
+            android:textColor="@color/colorDarkGray"
+            android:background="@color/colorWhite"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

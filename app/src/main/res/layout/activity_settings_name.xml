@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:background="@drawable/background_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height">
+        <ImageView
+            android:id="@+id/icon_back"
+            android:src="@drawable/ic_back"
+            android:layout_height="match_parent"
+            android:layout_width="60dp"
+            android:padding="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/register_id_banner"
+            android:text="@string/settings_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/paragraph_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/icon_back" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/register_main_header"
+            android:text="@string/settings_name"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/header_text"
+            android:textColor="@color/colorLightBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_name_first"
+            android:textColorHint="@color/colorPrimary"
+            android:theme="@style/EditTextPrimaryHint" >
+            <EditText
+                android:id="@+id/register_name_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"
+                android:maxLines="1"
+                android:textSize="@dimen/paragraph_text"
+                android:theme="@style/EditTextPrimary" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_name_last"
+            android:textColorHint="@color/colorPrimary"
+            android:theme="@style/EditTextPrimaryHint" >
+            <EditText
+                android:id="@+id/register_name_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"
+                android:maxLines="1"
+                android:textSize="@dimen/paragraph_text"
+                android:theme="@style/EditTextPrimary" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/register_proceed"
+            android:text="@string/settings_name_button"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
